@@ -1,0 +1,22 @@
+<div class="divisor"></div>
+ <img class="img-global" src="/image/MyTo-do.svg" alt="">
+<div class="container-create">
+    <h1>Nova Tarefa</h1>
+    <form action="/tasks/add" method="post">
+        <div class="form-control">
+            <input type="text" name="title" placeholder="Titulo da Tarefa">
+        </div>
+
+        <div class="form-control">
+           <textarea name="description" placeholder="Descreva a Terefa"></textarea>
+        </div>
+
+        <div class="form-control">
+          <input type="submit" value="Cadastrar">
+        </div>
+         <a class="box-dash-back" href="/tasks/dash">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+            <p>Voltar ao Dashboard</p>
+            </a>
+    </form>
+</div>

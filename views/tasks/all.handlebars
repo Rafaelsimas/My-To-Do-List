@@ -1,0 +1,36 @@
+<div class="divisor"></div>
+<img class="img-global" src="/image/MyTo-do.svg" alt="" />
+
+
+<ul class="list-data">
+  {{#each tasks}}
+    <li class="title-task">
+      <div class="title">{{this.title}}</div>
+      <div class="actions">
+        <form action="/tasks/">
+        <ion-icon name="checkmark-done-outline"></ion-icon>
+        </form>
+
+        <a href="/tasks/edit/{{this.id}}">
+        <ion-icon name="create-outline"></ion-icon> 
+        </a>
+
+        <form action="/tasks/remove" method="POST">
+          <input type="hidden" name="id" value="{{this.id}}" />
+          <button type="submit">
+            <ion-icon name="trash-outline"></ion-icon>
+          </button>
+          
+        </form>
+      </div>
+    </li>
+  {{/each}}
+</ul>
+<div class="action-btn">
+<div class="box-new-task">
+ <a href="/tasks/add">Adicionar Nova</a>
+</div>
+<div class="box-new-task-red">
+ <a href="/tasks">Sair</a>
+</div>
+</div>

@@ -1,0 +1,180 @@
+/* ============login================ */
+.container-login{
+    width: 80%;
+    height: 100vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 700px;
+}
+
+.container-login img{
+    width: 15.8rem;
+}
+.container-login a{
+    border-radius: 4px;
+    background-color: green;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    padding: 1rem;
+    width: 88%;
+    font-weight: bold;
+}
+
+
+/* ==========dashboard====== */
+
+.card-dash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--global-card-color);
+    margin-top: -18rem;
+    width: 92%;
+    margin-inline: auto;
+    border-radius: 8px;
+    height: 76vh;
+}
+
+.card-dash .card{
+    margin-bottom: 42px;
+}
+
+.card-dash .card ion-icon{
+    font-size: 4.8rem;
+    color: blueviolet;
+}
+
+/* =================create============== */
+.container-create{
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color:var(--global-card-color);
+    margin-top: -18rem;
+    width: 92%;
+    margin-inline: auto;
+    border-radius: 8px;
+    height: 76vh;
+}
+
+.container-create h1{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.container-create .form-control{
+   
+    margin-bottom: 15px;
+}
+
+.container-create .form-control input{
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+}
+
+.container-create .form-control textarea{
+    width: 100%;
+    height: 100px;
+    border: none;
+}
+
+.container-create .form-control input[type="submit"]{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.container-create .form-control input[type="submit"]:hover{
+    background: black;
+    color: rgb(14, 232, 14);
+
+}
+
+.container-create .box-dash-back{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 90%;
+    margin-inline: auto;
+ 
+}
+
+/* ================data============= */
+.box-dash-back-all{
+    margin-top: -20%;
+}
+.list-data {
+  
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--global-card-color);
+    margin-top: -18rem;
+    width: 92%;
+    margin-inline: auto;
+    border-radius: 8px;
+    height: 73vh;
+    overflow: scroll;
+}
+
+.list-data .title-task{
+   border-bottom: 1px solid lightgrey;
+    color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.list-data .title-task .actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.list-data .title-task .actions ion-icon{
+    font-size: 1.8rem;
+}
+
+.list-data .title-task .actions button{
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+}
+
+.action-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-new-task{
+    padding: 1.3rem;
+}
+.box-new-task-red{
+    padding: 1.3rem;
+}
+.box-new-task-red a{
+    padding: 1.3rem;
+    color: red;
+}
+
+.box-new-task a{
+    color: rgb(13, 237, 13);
+}
+
+
+

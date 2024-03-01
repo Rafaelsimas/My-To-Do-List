@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --global-card-color:rgb(238, 238, 238);
+}
+
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.divisor{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(4, 147, 4);
+}
+
+.img-global {
+    width: 11rem;
+    margin-top: 0px;
+    position: fixed;
+    top: -4%;
+    left: 23%;
+}
